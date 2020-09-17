@@ -4,19 +4,19 @@
 
 <view class="title">{{name}} </view>
 <view class="container">
-<view>Confirmed </view>
-<view>{{result.confirmed}}</view>
+<view class='title'>Confirmed </view>
+<view class='data'>{{result.confirmed}}</view>
 </view>
 <view class="container">
-<view>Deaths </view>
+<view class='title'>Deaths </view>
 <view class="data">{{result.deaths}}</view>
 </view>
 <view class='container'>
-<view class="data">Recovered </view>
+<view class="title">Recovered </view>
 <view class="data">{{result.recovered}}</view>
 </view>
 <view class="container">
-<view>Critical </view>
+<view class='title'>Critical </view>
 <view class='data'>{{result.critical}}</view>
 </view>
 

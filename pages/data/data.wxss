@@ -1,17 +1,29 @@
 /* pages/data/data.wxss */
+.page_container {
+  width: 100vw;
+  height:50vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
 .container {
   width: 100vw;
- 
-  display: inline-flex;
- 
-  
-  padding: 0 5vw;
+  display: inline-block;
+  padding: 10px 5vw;
   box-sizing: border-box;
-  
-
 }
 .data {
+  position: relative;
+  width: 100px;
+  float: right;
   
+  
+}
+.title{
+  position: relative;
+  width: 100px;
   float: left;
   
 }
@@ -19,4 +31,6 @@
   background-color: gainsboro;
   width: 100vw;
   height: 40px;
+  margin: 13px;
+  padding: 10px;
 }

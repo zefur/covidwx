@@ -1,10 +1,10 @@
 // pages/data/data.js
-let country = 'spain';
+var country = 'Worldwide';
 let site = "https://covid19-api.com/country?name="+country+"&format=json"  
 Page({
  
  data: {
-   name: "World data"
+   name: country
  },
 bindFormSubmit: function(e){
   
@@ -17,7 +17,7 @@ bindFormSubmit: function(e){
       
       let result = res.data[0]
       this.setData({ result })
-      this.setData(this.name= country) 
+      
     }
   })
 },

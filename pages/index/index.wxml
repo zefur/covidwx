@@ -15,6 +15,6 @@
   <view class="header">Covid tracker</view>
   <view class='subheader'>Here to keep you upto date</view>
 
-  <button bindtap="navigateToData" class="btn">Hi there</button>
+  <button bindtap="navigateToData" class="btn">Click to Track</button>
 
 </view>
