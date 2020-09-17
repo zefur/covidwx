@@ -3,6 +3,14 @@
 const app = getApp()
 
 Page({
+  navigateToData: function (){
+    wx.navigateTo({
+      url: '/pages/data/data',
+      // success: function(res) {},
+      // fail: function(res) {},
+      // complete: function(res) {},
+    })
+  },
   data: {
     motto: 'Hello World',
     userInfo: {},

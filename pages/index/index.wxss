@@ -1,5 +1,5 @@
 /**index.wxss**/
-.userinfo {
+/* .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,4 +18,43 @@
 
 .usermotto {
   margin-top: 200px;
+} */
+
+.image {
+  height: 150px;
+  width: 150px;
+  margin-top: 15%;
+
+  background: url('https://practicalbioethics.org/templates/yootheme/cache/virus-icon-e78c91c2.png');
+
+  background-size: contain
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  position: relative;
+
+}
+.header{
+  margin-top: 5%;
+  font-size: 48px;
+  font-weight: bold;
+}
+.subheader{
+  margin-top: 1%;
+  font-size: 20px
+}
+.btn {
+  width:80% !important;
+  height: 50px !important;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

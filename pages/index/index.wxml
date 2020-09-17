@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
+  <!-- <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
@@ -9,5 +9,12 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-  </view>
+  </view> -->
+
+  <view class='image' ></view>
+  <view class="header">Covid tracker</view>
+  <view class='subheader'>Here to keep you upto date</view>
+
+  <button bindtap="navigateToData" class="btn">Hi there</button>
+
 </view>

@@ -1,0 +1,22 @@
+/* pages/data/data.wxss */
+.container {
+  width: 100vw;
+ 
+  display: inline-flex;
+ 
+  
+  padding: 0 5vw;
+  box-sizing: border-box;
+  
+
+}
+.data {
+  
+  float: left;
+  
+}
+.textarea {
+  background-color: gainsboro;
+  width: 100vw;
+  height: 40px;
+}
